@@ -13,6 +13,8 @@ public class IndustryApplication {
 		System.setProperty("DATABASE_URL", dotenv.get("DATABASE_URL"));
 		System.setProperty("DATABASE_USERNAME", dotenv.get("DATABASE_USERNAME"));
 		System.setProperty("DATABASE_PASSWORD", dotenv.get("DATABASE_PASSWORD"));
+		System.setProperty("JWT_SECRET", dotenv.get("JWT_SECRET"));
+		System.setProperty("JWT_EXPIRATION", dotenv.get("JWT_EXPIRATION"));
 
 		SpringApplication.run(IndustryApplication.class, args);
 	}
