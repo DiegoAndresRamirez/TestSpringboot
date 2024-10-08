@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface LoadRepository extends JpaRepository<Load, Long> {
+    Load findByCode(String code);
+
 }

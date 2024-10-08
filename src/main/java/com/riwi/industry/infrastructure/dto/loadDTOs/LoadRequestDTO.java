@@ -13,8 +13,8 @@ import java.util.Set;
 @NoArgsConstructor
 @Builder
 public class LoadRequestDTO {
-    private Long id;
     private Long weight;
+    private String code;
     private String dimensions;
     @Enumerated(value = EnumType.STRING)
     private StatusLoad status;

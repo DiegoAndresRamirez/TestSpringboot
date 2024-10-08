@@ -25,6 +25,7 @@ public class Load {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String code;
     private Long weight;
     private String dimensions;
     @Enumerated(value = EnumType.STRING)

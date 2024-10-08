@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface PalletRepository extends JpaRepository<Pallet, Long> {
+
+    Pallet findByCode(String code);
 }

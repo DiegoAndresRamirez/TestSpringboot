@@ -21,6 +21,8 @@ public class PalletRequestDTO {
 
     private String ubication;
 
+    private String code;
+
     @Enumerated(value = EnumType.STRING)
     private TypePallet type;
 

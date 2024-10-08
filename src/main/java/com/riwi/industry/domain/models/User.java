@@ -30,6 +30,7 @@ public class User implements UserDetails {
     @Enumerated(value = EnumType.STRING)
     private Role role;
 
+
     @OneToOne
     @JoinColumn(name = "pallets_id")
     private Pallet pallet;

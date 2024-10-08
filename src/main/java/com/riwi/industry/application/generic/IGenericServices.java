@@ -2,7 +2,7 @@ package com.riwi.industry.application.generic;
 
 import java.util.List;
 
-public interface IGenericCrud <DTOReq, DTORes, ID, String >{
+public interface IGenericServices<DTOReq, DTORes, ID, String >{
 
     DTORes create(DTOReq dtoReq);
     DTORes update(DTOReq dtoReq, ID id);

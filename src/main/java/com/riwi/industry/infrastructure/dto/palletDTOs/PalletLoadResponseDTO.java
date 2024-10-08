@@ -12,7 +12,6 @@ import lombok.*;
 @Builder
 public class PalletLoadResponseDTO {
 
-    private Long id;
     private Long weight;
     private String dimensions;
     @Enumerated(value = EnumType.STRING)

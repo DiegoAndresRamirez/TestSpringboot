@@ -30,6 +30,8 @@ public class Pallet {
     @Enumerated(value = EnumType.STRING)
     private StatusPallet status;
 
+    private String code;
+
     private String ubication;
 
     @Enumerated(value = EnumType.STRING)
